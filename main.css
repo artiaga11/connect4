@@ -1,0 +1,59 @@
+:root {
+  background-color: black;
+  color: white;
+  font-family: "Trebuchet MS";
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-align: center;
+}
+
+h1 {
+  font-size: 75px;
+  color: yellow;
+  margin-bottom: 30px;
+}
+
+.gameBoard {
+  border: 1px solid black;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: flex-start;
+  width: 700px;
+  height: 600px;
+  margin: auto;
+  padding: 10px;
+  background: navy;
+}
+
+.column {
+  border: 1px solid navy;
+  display: flex;
+  flex-direction: column-reverse;
+  width: 100x;
+  height: 100%;
+  flex-grow: 1;
+  background: navy;
+  cursor: pointer;
+}
+
+.column:hover {
+  background-color: yellow;
+}
+
+.cell {
+  border: 1px solid white;
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-evenly;
+  align-items: space-around;
+  align-content: space-around;
+  height: 98px;
+  border-radius: 50%;
+}
+
+.disc {
+  height: 98px;
+  border-radius: 50%;
+}
